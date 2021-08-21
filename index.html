@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Mac</title>
+    <!-- bootstrap style sheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <main>
+
+
+        <section class="d-flex mt-5 p-5 align-items-center">
+
+            <div class="mb-5">
+                <img src="images/mac.png" class="img-fluid" alt="">
+            </div>
+
+            <div>
+
+                <h1 class="ps-5 mt-5">Customize your Blue 24‑inch iMac with Apple M1 chip.</h1>
+                <p class="ps-5">Apple M1 chip with 8-core CPU with 4 performance cores and 4 efficiency cores, 7-core
+                    GPU,and 16-core Neural Engine 8GB unified memory 256GB SSD storage Thunderbolt / USB 4 portsMagic
+                    Mouse
+                    Magic Keyboard - US English</p>
+                <br>
+                <div class="ps-5">
+                    <h4>Memory</h4>
+
+                    <button id="memory-price-stable" type="button" class="btn btn-outline-secondary">8GB unified
+                        memory</button>
+                    <button id="memory-price-increase" type="button" class="btn btn-outline-secondary ">16 GB unified
+                        memory</button>
+                </div>
+                <div class="ps-5 mt-4">
+                    <h4>Storage</h4>
+
+                    <button id="extra-memory-default" type="button" class="btn btn-outline-secondary">256GB SSD
+                        storage</button>
+                    <button id="extra-memory-small" type="button" class="btn btn-outline-secondary ">512GB SSD
+                        storage</button>
+                    <button id="extra-memory-large" type="button" class="btn btn-outline-secondary ">1TB SSD
+                        storage</button>
+                </div>
+                <div class="ps-5 mt-4">
+                    <h4>choose your delivery option</h4>
+
+                    <button id="delivery-free" type="button" class="btn btn-outline-secondary">Friday, Aug 23 Free
+                        delivery</button>
+                    <button id="delivery-paid" type="button" class="btn btn-outline-secondary ">Friday, Aug 21 delivery
+                        charge 20</button>
+                    <div class="row my-5 d-lfex">
+
+                        <div class="col-md-4">
+                            <h5>Best Price: </h5>
+                            <hr>
+                            <h5>Extra memory cost:</h5>
+                            <hr>
+                            <h5>Extra storage cost:</h5>
+                            <hr>
+                            <h5>Delivery charge:</h5>
+                            <hr>
+
+                            <h5>Total Price:</h5>
+                        </div>
+
+                        <div class="col-md-4">
+                            <h5>$<span id="best-price">1299</span> </h5>
+                            <br>
+                            <h5>$<span id="extra-memory">0</span></h5>
+                            <br>
+                            <h5>$<span id="extra-storage">0</span></h5>
+                            <br>
+                            <h5>$<span id="delivery-charge">0</span></h5>
+                            <br>
+                            <h5>$<span id="total-price">1299</span></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
